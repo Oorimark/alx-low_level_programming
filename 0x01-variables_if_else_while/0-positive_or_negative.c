@@ -14,4 +14,5 @@ int main(void)
 	{
 		printf("is negative")
 	}
+	return 0
 }
