@@ -2,6 +2,14 @@
 #include <time.h>
 #include <stdlib.h>
 
+/** 
+ * function_name: main
+ * @void: No arguments
+ * Description: Create a random number and
+ * check if it a positvie number,
+ * negative number or zero
+ * Return: 0 (Success)
+ */
 int main(void)
 {
 	int n;
