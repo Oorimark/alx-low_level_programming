@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-
-/** 
- * function_name: main
+/**
+ * main - check sign
  * @void: No arguments
+ *
  * Description: Create a random number and
  * check if it a positvie number,
  * negative number or zero
@@ -12,6 +12,10 @@
  */
 int main(void)
 {
+
+	/**
+	 * description: check +ve,-ve,zero
+	 */
 	int n;
 
 	srand(time(0));
