@@ -2,12 +2,15 @@
 
 /**
  * main - Entry point
- * Return: Always (Success)
+ * 
+ * Return: Always 0 (Success)
  */
 int main (void)
 {	
-	printf("holberton School");
+
+	printf("Holberton School");
 	return (0);
+
 
 }
 
