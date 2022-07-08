@@ -11,7 +11,7 @@ void print_triangle(int size)
 	int space_tracker = size - 1;
 	int numb_tracker = 1;
 
-	if ( size <= 0)
+	if (size <= 0)
 	{
 		_putchar('\n');
 	}
