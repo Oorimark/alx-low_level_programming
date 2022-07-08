@@ -17,7 +17,7 @@ void print_diagonal(int n)
 	{
 		while (tracker < n)
 		{
-			int xtracker = -1;
+			int xtracker = 0;
 
 			while (xtracker < tracker)
 			{
