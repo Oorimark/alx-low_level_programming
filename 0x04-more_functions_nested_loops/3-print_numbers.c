@@ -7,7 +7,7 @@
  */
 void print_numbers(void)
 {
-	char * n = "0123456789";
+	char *n = "0123456789";
 	int tracker = 0;
 
 	while (tracker < 10)
