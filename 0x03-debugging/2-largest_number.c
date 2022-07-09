@@ -10,23 +10,17 @@ int max(int [], int);
 
 int largest_number(int a, int b, int c)
 {
-	int largest;
-	int arr[] = {a,b,c};
+	int arr[] = {a, b, c};
 	int n = 3;
-	largest = max(arr,n);
-	return (largest);
+	int t, i;
 
-}
+	t = arr[0];
 
-int max(int x[], int k)
-{
-	int t,i;
-	t = x[0];
-	for (i = 1; i < k; i++)
+	for (i = 1; i < n; i++)
 	{
-		if (x[i] > t)
-			t=x[i];
+		if (arr[i] > t)
+			t = arr[i];
 	}
+
 	return (t);
 }
-
