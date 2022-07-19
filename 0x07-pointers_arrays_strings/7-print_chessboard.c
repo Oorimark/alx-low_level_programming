@@ -13,7 +13,7 @@ void print_chessboard(char (*a)[8])
 	int j;
 	int len;
 
-	len = (int) sizeof(a); 
+	len = (int) sizeof(a);
 	for (i = 0; i < len; i++)
 	{
 		for (j = 0; j < len; j++)
