@@ -11,12 +11,18 @@
 int main(int argc, char *argv[])
 {
 	int res;
+	int i;
 
+	res = 1;
 	if (argc > 1)
 	{
-		res = atoi(argv[1]) * atoi(argv[2]);
+		for (i = 1; i < argc; i++)
+		{
+			res = res * atoi(argv[i]);
+		}
 		printf("%d\n", res);
 		return (0);
+
 	}
 	else
 	{
