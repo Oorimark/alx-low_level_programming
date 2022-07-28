@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		puts("Error \n");
+		puts("Error");
 		return (1);
 	}
 }
