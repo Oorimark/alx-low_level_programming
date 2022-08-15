@@ -3,7 +3,8 @@
 
 /**
  * sum_them_all - sums all the arguments
- * @int:lenght of argument
+ * @n:lenght of argument
+ * @...: variable params
  *
  * Return: int
  */
