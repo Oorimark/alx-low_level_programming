@@ -4,7 +4,7 @@
 
 /**
  * add_nodeint - add items to the list
- * @h: head pointer
+ * @head: head pointer
  * @n: value
  *
  * Return: listint_t
@@ -12,6 +12,7 @@
 listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new_node, *temp;
+
 	if (head == NULL)
 	{
 		*head = malloc(sizeof(listint_t));
